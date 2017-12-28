@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "ie > 9"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-runtime",
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "~node_modules/element-ui/lib/theme-chalk"
+      }
+    ]
+  ]
+}
